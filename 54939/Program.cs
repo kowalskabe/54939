@@ -25,6 +25,14 @@ namespace _54939
             gPC1.Multiplayer();
             gPC2.Multiplayer();
 
+            Console.WriteLine(g1.Opis());
+            Console.WriteLine(g2.Opis());
+            Console.WriteLine(gPC1.Opis());
+            Console.WriteLine(gPC2.Opis());
+            Console.WriteLine(gP1.Opis());
+            Console.WriteLine(gP2.Opis());
+
+            Console.ReadKey();
         }
     }
 }
