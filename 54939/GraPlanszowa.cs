@@ -20,10 +20,6 @@ namespace _54939
         }
 
 
-        public double CzasRozgrywki()
-        {
-            double tmp = 0.0;
-            return tmp;
-        }
+        public double CzasRozgrywki() => liczbaGraczy * 45.2;
     }
 }
