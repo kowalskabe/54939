@@ -19,11 +19,15 @@ namespace _54939
             GraPlanszowa gP1 = new GraPlanszowa("Dixit", 94.9, 6);
             GraPlanszowa gP2 = new GraPlanszowa("Monopoly", 118.99, 8);
 
-            gP1.CzasRozgrywki();
-            gP2.CzasRozgrywki();
+            Console.WriteLine("Czas rozgrywki 1. planszówki " + gP1.CzasRozgrywki());
+            Console.WriteLine("Czas rozgrywki 2. planszówki " + gP2.CzasRozgrywki());
 
-            gPC1.Multiplayer();
-            gPC2.Multiplayer();
+            if (gPC1.Multiplayer()) Console.WriteLine("1. PC posiada tryb multiplayer");
+            else Console.WriteLine("1. PC nie posiada trybu multiplayer");
+            
+            if (gPC2.Multiplayer()) Console.WriteLine("2. PC posiada tryb multiplayer");
+            else Console.WriteLine("2. PC nie posiada trybu multiplayer");
+            
 
             Console.WriteLine(g1.Opis());
             Console.WriteLine(g2.Opis());
