@@ -19,6 +19,12 @@ namespace _54939
             GraPlanszowa gP1 = new GraPlanszowa("Dixit", 94.9, 6);
             GraPlanszowa gP2 = new GraPlanszowa("Monopoly", 118.99, 8);
 
+            gP1.CzasRozgrywki();
+            gP2.CzasRozgrywki();
+
+            gPC1.Multiplayer();
+            gPC2.Multiplayer();
+
         }
     }
 }
