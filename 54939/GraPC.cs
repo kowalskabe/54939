@@ -21,7 +21,8 @@ namespace _54939
 
         public bool Multiplayer() 
         {
-            return true;
+            if (pegi > 15) return true;
+            else return false;
         }
     }
 }
