@@ -6,7 +6,22 @@ using System.Threading.Tasks;
 
 namespace _54939
 {
-    class GraPC
+    class GraPC : Gra
     {
+        private int pegi;
+
+        
+        public GraPC() { }
+
+        public GraPC(string nazwa, double cena, int pegi) : base(nazwa, cena)
+        {
+            this.pegi = pegi;
+        }
+
+
+        public bool Multiplayer() 
+        {
+            return true;
+        }
     }
 }

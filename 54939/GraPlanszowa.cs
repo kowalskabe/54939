@@ -19,7 +19,11 @@ namespace _54939
             this.liczbaGraczy = liczbaGraczy;
         }
 
-        
-        public double CzasRozgrywki
+
+        public double CzasRozgrywki()
+        {
+            double tmp = 0.0;
+            return tmp;
+        }
     }
 }
