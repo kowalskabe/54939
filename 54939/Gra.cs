@@ -18,9 +18,7 @@ namespace _54939
             this.cena = cena;
         }
 
-        public string Opis()
-        {
-            return nazwa;
-        }
+        public string Opis() => (nazwa + " " + cena.ToString());
+      
     }
 }
